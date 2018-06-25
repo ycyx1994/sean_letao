@@ -32,6 +32,7 @@ a:active {
   width: 180px;
   height: 100%;
   position: fixed;
+  background-color: #222d32;
 }
 
 .lt_aside .brand {
@@ -45,4 +46,49 @@ a:active {
 
 .lt_aside .brand a {
   color: white;
+}
+
+.lt_aside .user {
+  height: 180px;
+  padding-top: 30px;
+  /* text-align: center; */
+}
+
+.lt_aside .user img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.lt_aside .user p {
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.lt_aside .nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lt_aside .nav a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 40px;
+  border-left: 3px solid transparent;
+}
+
+.lt_aside .nav .child a {
+  padding-left: 60px;
+}
+
+.lt_aside .nav a.current {
+  background-color: #1d1f21;
+  border-left: 3px solid #006699;
 }
