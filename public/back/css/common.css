@@ -1,3 +1,16 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
 .body_bg {
   background-color: #222d32;
 }
@@ -11,4 +24,25 @@
 
 .mt_150 {
   margin-top: 150px;
+}
+
+/* 乐淘登录页 */
+
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+}
+
+.lt_aside .brand {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #367fa9;
+}
+
+.lt_aside .brand a {
+  color: white;
 }
