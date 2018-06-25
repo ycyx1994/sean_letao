@@ -28,11 +28,14 @@ a:active {
 
 /* 乐淘登录页 */
 
+/* 侧边栏 */
+
 .lt_aside {
   width: 180px;
   height: 100%;
   position: fixed;
   background-color: #222d32;
+  z-index: 999;
 }
 
 .lt_aside .brand {
@@ -84,6 +87,10 @@ a:active {
   border-left: 3px solid transparent;
 }
 
+.lt_aside .nav i {
+  margin-right: 5px;
+}
+
 .lt_aside .nav .child a {
   padding-left: 60px;
 }
@@ -91,4 +98,38 @@ a:active {
 .lt_aside .nav a.current {
   background-color: #1d1f21;
   border-left: 3px solid #006699;
+}
+
+/* main 顶部 topbar */
+
+.lt_main {
+  width: 100%;
+  height: 1000px;
+  padding-left: 180px;
+  padding-top: 50px;
+}
+
+.lt_topbar {
+  height: 50px;
+  width: 100%;
+  background-color: #3c8dbc;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  padding-left: 180px;
+}
+
+.lt_topbar a {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px; 
+  color: white;
+  text-align: center;
+}
+
+/* 右侧 主体 */
+
+.container-fluid .breadcrumb {
+  margin-top: 20px;
 }
