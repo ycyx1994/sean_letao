@@ -11,8 +11,16 @@ a:active {
   text-decoration: none;
 }
 
+/* body 背景色 */
+
 .body_bg {
   background-color: #222d32;
+}
+
+/* 红色提示色 */
+
+.red {
+  color: #A94442;
 }
 
 .panel .panel-title {
@@ -34,8 +42,14 @@ a:active {
   width: 180px;
   height: 100%;
   position: fixed;
+  left: 0px;
   background-color: #222d32;
   z-index: 999;
+  transition: all 0.5s;
+}
+
+.lt_aside.hidemenu {
+  left: -180px;
 }
 
 .lt_aside .brand {
@@ -107,6 +121,11 @@ a:active {
   height: 1000px;
   padding-left: 180px;
   padding-top: 50px;
+  transition: all 0.5s;
+}
+
+.lt_main.hidemenu {
+  padding-left: 0px;
 }
 
 .lt_topbar {
@@ -116,14 +135,19 @@ a:active {
   position: fixed;
   top: 0;
   left: 0px;
+  transition: all 0.5s;
   padding-left: 180px;
+}
+
+.lt_topbar.hidemenu {
+  padding-left: 0px;
 }
 
 .lt_topbar a {
   width: 50px;
   height: 50px;
   font-size: 16px;
-  line-height: 50px; 
+  line-height: 50px;
   color: white;
   text-align: center;
 }
