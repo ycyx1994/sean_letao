@@ -34,6 +34,10 @@ a:active {
   margin-top: 150px;
 }
 
+.mb_20 {
+  margin-bottom: 20px;
+}
+
 /* 乐淘登录页 */
 
 /* 侧边栏 */
@@ -118,7 +122,7 @@ a:active {
 
 .lt_main {
   width: 100%;
-  height: 1000px;
+  /* height: 1000px; */
   padding-left: 180px;
   padding-top: 50px;
   transition: all 0.5s;
@@ -168,7 +172,7 @@ a:active {
 
 /* 表格水平垂直居中 */
 
-.table.table-bordered tr,
+.table.table-bordered th,
 .table.table-bordered td {
   text-align: center;
   vertical-align: middle;
