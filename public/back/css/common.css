@@ -157,3 +157,10 @@ a:active {
 .container-fluid .breadcrumb {
   margin-top: 20px;
 }
+
+/* index 图表 */
+.lt_main .echarts_1,
+.lt_main .echarts_2 {
+  height: 500px;
+  width: 48%;
+}
