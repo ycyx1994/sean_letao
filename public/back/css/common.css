@@ -159,8 +159,21 @@ a:active {
 }
 
 /* index 图表 */
+
 .lt_main .echarts_1,
 .lt_main .echarts_2 {
   height: 500px;
   width: 48%;
+}
+
+/* 表格水平垂直居中 */
+
+.table.table-bordered tr,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#paginator li {
+  cursor: pointer;
 }

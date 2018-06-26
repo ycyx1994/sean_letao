@@ -98,7 +98,7 @@ $(function () {
       // 设置是阴影
       itemStyle: {
         emphasis: {
-          shadowBlur: 100,
+          shadowBlur: 10,
           shadowOffsetX: 0,
           shadowColor: 'rgba(0, 0, 0, 0.5)'
         }
