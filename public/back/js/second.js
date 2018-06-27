@@ -58,7 +58,10 @@ $(function () {
     // console.log($(this).data('id'))
     // 将下拉菜单选中的一级分类id赋值给input框
     $('[name="categoryId"]').val($(this).data('id'))
-    
+    // 手动重置表单校验状态
+    $('#form').data('bootstrapValidator').updateStatus('categoryId', 'VALID')
+    // $('#form').data("bootstrapValidator").updateStatus("categoryId", "VALID")
+
   })
 
   // 上传图片
@@ -74,6 +77,7 @@ $(function () {
       $('#addModal form img').attr('src', src);
       $('[name="brandLogo"]').val(src)
       // 手动重置表单校验状态
+      $('#form').data('bootstrapValidator').updateStatus('brandLogo', 'VALID')
 
     }
   });
@@ -140,7 +144,7 @@ $(function () {
   })
 
 
-  
+
 
 
 
