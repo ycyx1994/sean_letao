@@ -1,7 +1,7 @@
 // 入口函数
 $(function () {
   var currentPage = 1;
-  var pageSize = 2;
+  var pageSize = 5;
 
   render();
   // 渲染页面
